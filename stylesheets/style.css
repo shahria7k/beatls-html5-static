@@ -1,0 +1,526 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Oswald:400,500,600,700&display=swap");
+
+/*==========================================================
+--------linking ends and body commons start from here--------
+============================================================*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: 0px;
+}
+
+body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+    border: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p,
+img,
+ul,
+ol,
+li,
+.navbar {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.common-heading {
+    padding: 60px 0px 40px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    color: #353535;
+}
+
+.common-heading .ab-shape {
+    margin-top: -30px;
+    margin-left: -42px;
+    width: 70px;
+}
+
+.common-heading .ser-shape {
+    margin-top: -30px;
+    margin-left: -85px;
+    width: 70px;
+}
+
+.common-heading .port-shape {
+    margin-top: -30px;
+    margin-left: -101px;
+    width: 70px;
+}
+
+
+/*==========================================================
+-------body commons end and header start from here-----------
+============================================================*/
+
+.header-top {
+    background: #0872b9;
+    color: #e7e7e7;
+    padding: 11px 0px;
+}
+
+.header-top span {
+    font-size: 14px;
+}
+
+.header-top ul li {
+    margin-left: 24px;
+}
+
+.header-top ul li a {
+    color: #e7e7e7;
+    transition: all linear 0.3s;
+}
+
+.header-top ul li a:hover {
+    color: #353535;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.main-manu {
+    padding: 20px 0px;
+    background: #fff;
+}
+
+.main-manu .nav-item {
+    margin-left: 15px;
+}
+
+.main-manu .nav-item .nav-link {
+    font-size: 14px;
+    color: #353535;
+}
+
+.main-manu .nav-item.active .nav-link,
+.main-manu .nav-item .nav-link:focus,
+.main-manu .nav-item .nav-link:hover {
+    color: #0872b9;
+}
+
+
+/*==========================================================
+-------header ends and banner section starts from here-------
+============================================================*/
+
+.slider-part {
+    background: url(../img/Baner.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.slider-overlay {
+    background: rgba(0, 0, 0, .6);
+    padding: 88px 0px;
+}
+
+.s-content h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.s-content h1 {
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 19px;
+}
+
+.s-content p {
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 1px;
+    padding-bottom: 19px;
+    /*-webkit-user-select:none ;
+	-moz-user-select: none;
+	-ms-user-select:none ;
+	-o-user-select: none;
+	user-select:none ;*/
+}
+
+.s-content .sbtn a {
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    margin-left: 20px;
+    border: 1px solid #fff;
+    transition: all linear 0.3s;
+}
+
+.s-content .sbtn a:hover {
+    background: #0872b9;
+}
+
+
+/*==========================================================
+--------banner section ends and about section starts--------
+============================================================*/
+
+.about-part {}
+
+.about-part .ab-p {
+    padding: 33px 0px 35px;
+    color: #555555;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+.about-part .ab-p2 {
+    color: #555555;
+    font-size: 13px;
+    line-height: 22px;
+    letter-spacing: 1px;
+}
+
+
+/*==========================================================
+-------about section ends  and service section starts--------
+============================================================*/
+
+.service-part {}
+
+.service-part .service-item {
+    transition: all linear .3s;
+}
+
+.service-item .service-icon {
+    height: 85px;
+    width: 85px;
+    background: #f1f1f1;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all linear .3s;
+}
+
+.service-item .service-icon-2 {
+    height: 70px;
+    width: 70px;
+    background: #f1f1f1;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 2px auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    transition: all linear .3s;
+}
+
+.service-item .service-con {
+    padding: 50px 22px 20px;
+    background: #f1f1f1;
+}
+
+.service-item:hover .service-icon,
+.service-item:hover .service-icon-2 {
+    background: #5bc5f4;
+}
+
+.service-item:hover {
+    box-shadow: 0px 0px 5px #555555;
+}
+
+
+/*==========================================================
+------service section ends and portfolio section starts------
+============================================================*/
+
+.portfolio-part {}
+
+.portfolio-part .port-items {
+    position: relative;
+}
+
+.port-items .port-overlay {
+    height: 0px;
+    width: 0px;
+    background: rgba(0, 0, 0, .6);
+    position: absolute;
+    top: 0;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    opacity: 0;
+    transition: .3s;
+}
+
+.port-items .port-overlay a {
+    height: 40px;
+    width: 40px;
+    background: #5bc5f4;
+    border-radius: 50%;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+    -ms-align-items: center;
+    align-items: center;
+    color: #fff;
+}
+
+.port-items:hover .port-overlay {
+    opacity: 1;
+    height: 100%;
+    width: 100%;
+}
+
+.mt30 {
+    margin-top: 30px;
+}
+
+
+/*==========================================================
+-------portifolio section starts and team part starts--------
+============================================================*/
+
+.team_img {
+    position: relative;
+    transition: all linear .3s;
+}
+
+.overlay_team {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 0%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.64);
+    text-align: center;
+    opacity: 0;
+    transition: all linear .3s;
+}
+
+.overlay_team ul {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.overlay_team ul li a {
+    display: inline-block;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    color: #fff;
+    transition: all linear .3s;
+}
+
+.overlay_team ul li a i {
+    line-height: 35px;
+    font-size: 16px;
+}
+
+.overlay_team ul li:hover a {
+    background: #5bc5f4;
+    border-color: #5bc5f4;
+}
+
+.overlay_team ul li:last-child a {
+    margin: 0;
+}
+
+.team:hover .overlay_team {
+    opacity: 1;
+    width: 40%;
+}
+
+.team:hover .team_img {
+    box-shadow: 0 0 5px #000;
+}
+
+.team h5 {
+    padding: 10px 0px;
+    transition: all linear .3s;
+}
+
+.test_content h6,
+.team h6 {
+    font-size: 14px;
+    font-weight: 400;
+    color: #555555;
+}
+
+.team:hover h5 {
+    color: #5bc5f4;
+}
+
+
+/*==========================================================
+-----team section ends and testimonial section starts--------
+============================================================*/
+
+.testimonial-part {}
+
+.testimonial-part .testi-img {
+    margin-bottom: 36px;
+}
+
+.testimonial-part .testi-con {
+    padding: 20px;
+    background: #f1f1f1;
+    position: relative;
+}
+
+.testi-con .testi-shape {
+    height: 45px;
+    width: 45px;
+    background: #f1f1f1;
+    transform: translateX(-50%) rotate(45deg);
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    z-index: -1;
+}
+
+
+/*==========================================================
+-----testimonal section ends and footer section starts------
+============================================================*/
+
+.main_footer {
+    background: #353535;
+    padding: 20px 0px;
+}
+
+.ft_logo p {
+    color: #f1f1f1;
+    padding-top: 30px;
+}
+
+.ft_contact h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-bottom: 40px;
+}
+
+.ft_contact .col-2 i {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 16px;
+    background: #5bc5f4;
+    line-height: 35px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.ft_menu .col-6 ul li a,
+.ft_contact .col-10 a {
+    display: block;
+    color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: none;
+}
+
+.pb_20 {
+    padding-bottom: 20px;
+}
+
+.ft_menu .col-6 ul li a {
+    padding: 8px 0;
+    text-transform: capitalize;
+}
+
+.ft_menu ul li:last-child a {
+    padding-bottom: 0px;
+}
+
+.ft_menu ul li:first-child a {
+    padding-top: 0px;
+}
+
+.mb_30 {
+    margin-bottom: 30px;
+}
+
+.copy_ft {
+    background: #555555;
+    padding: 15px 0px;
+}
+
+.copy_ft p {
+    color: #f1f1f1;
+}
+
+.copy_ft p a {
+    color: #f1f1f1;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.copy_ft p:hover a {
+    color: #5bc5f4;
+}
+
+
+/*==========================================================
+-------------------footer section ends--------------------- 
+============================================================*/
